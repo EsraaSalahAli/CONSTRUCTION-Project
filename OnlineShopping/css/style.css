@@ -1,0 +1,626 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec1 {
+    height: 20px;
+    background-color: #ffc502;
+} 
+
+main>nav {
+    background-color: #000;
+    
+}
+
+main>nav ul {
+    list-style-type: none;
+    
+}
+
+main>nav ul li {
+    text-align: center;
+    padding: 5px 0 10px;
+    
+}
+
+main>nav ul li:last-of-type a {
+    display: inline-block;
+    border: thin solid #fff;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+}
+
+main>nav ul a {
+    text-decoration: none;
+    color: #ffff;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: thin dotted #212020;
+}
+
+main>nav ul a:hover {
+    background-color: #FDC802;
+}
+
+main>nav ul li:last-of-type a:hover {
+    background-color: #FDC802;
+    color: #fff;
+}
+
+#sec2 {
+    max-width: 100%;
+    background: url(../images/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 5% 10%;
+}
+
+#sec2 h3 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: left;
+    color: #232323;
+    margin-bottom: 34px;
+}
+
+#sec2 h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: #232323;
+}
+
+#sec2 #color {
+    color: #cd8383;
+    margin-bottom: 15px;
+
+}
+
+#sec2 a {
+    color: #333333;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+#sec3 {
+    max-width: 100%;
+    background-color: #000;
+    padding: 5% 10%;
+}
+
+#sec3 h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fac769;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+#sec3 p {
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: justify;
+}
+
+#sec4 {
+    max-width: 100%;
+    background: linear-gradient(to right ,#f9be00,#ffd533);
+    padding: 5% 10%;
+}
+
+#sec4 h1{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+#sec5 {
+    max-width: 100%;
+    background-color: #fff;
+    padding: 10%;
+}
+
+#sec5 article {
+    margin: 0 auto 15px;
+    position: relative;
+} 
+
+#sec5 h5 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #232323;
+    margin-bottom: 30px;
+} 
+
+#sec5 span {
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
+} 
+
+#sec5 #as1 img {
+    max-width: 100%;
+} 
+
+#sec5 #as2 {
+    background-color: #000;
+    max-width: 100%;
+    padding: 5px 10px;
+} 
+
+#sec5 #as2 h1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffc700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+} 
+
+#sec5 #as2 p {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #f7fffb;
+    margin-bottom: 10px;
+} 
+
+#sec6 {
+    max-width: 100%;
+    background-color: #000;
+    padding: 10%;
+}
+
+#sec6 p {
+    font-size: 1.6rem;
+    color: #ffc702;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#sec6 aside {
+    max-width: 100%;
+    background-color: #000;
+}
+
+#sec6 aside img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 10px;
+}
+
+#sec7 {
+    max-width: 100%;
+    background:url(../images/sep.png) no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+}
+
+#sec7 #a1 {
+    text-align: left;
+}
+
+#sec7 h3 {
+    font-size: 0.9rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#sec7 h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#sec7 #a2 a {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    color: #333333;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+#sec8 {
+    max-width: 100%;
+    background-color: #000;
+    padding: 10%;
+}
+
+#sec8 aside>h1 {
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#sec8 aside p {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#sec8 aside img {
+    max-width: 100%;
+}
+
+#sec8 aside article {
+    max-width: 100%;
+    color: #fff;
+    font-family: 'Segoe UI';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sec8 aside article h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+
+#sec8 aside article h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#sec8 aside article h3 {
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+#sec9 {
+    max-width: 100%;
+    background: linear-gradient(rgba(26,94,99,0.5),rgba(62,94,99,0.5))
+    ,url(../images/contactus.jpg) no-repeat center;
+    padding: 10%;
+}
+
+#sec9 h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffbc00;
+    margin-bottom: 20px;
+}
+
+#sec9 p{
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#sec9 form{
+    max-width: 95%;
+    border: thin solid #ffbc00;
+    border-radius: 15px;
+    box-shadow: 0px 0px 56px -5px rgba(255,188,0,0.7);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sec9 .select{
+    max-width: 95%;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #8d949c;
+    padding: 3px 5px;
+    margin: 20px; 
+    border: thin solid #e8e8e8; 
+}
+
+#sec9 #button{ 
+    width: 95%;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 3px 5px;
+    margin: 20px auto;
+    color: #333333;
+    background-color: #ffbc00;
+    text-align: center;
+    border: none;
+    
+}
+
+#sep {
+    background: url(../images/sep.png) no-repeat bottom right;
+    height: 10px;
+}
+
+footer {
+    max-width: 100%;
+    background-color: #000;
+    padding: 10%;
+
+}
+
+footer article {
+    max-width: 90%;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+#foot {
+    padding-left: 5px;
+}
+
+footer article a {
+    display: block;
+    color: #fff;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+footer article input {
+    color:#fff;
+    background-color: transparent;
+    border-bottom: thin solid #fff;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-bottom: 5px;
+}
+
+#submit {
+    color: #333333;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    #sec4 {
+        padding: 20px 50px;
+    }
+
+    #sec5 article {
+        max-width: 305px;
+    } 
+    
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+
+    main>nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;     
+    }
+
+    main>nav ul li {
+        margin-left: 15px;
+        margin-right: 15px;     
+    }
+
+    main>nav ul a {
+        border: none;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    main>nav ul li:last-of-type a:hover {
+        background-color: #FDC802;
+        color: #fff;
+    }
+
+    #sec2 {
+        padding: 75px;
+    }
+
+    #sec4 {
+        padding: 20px 50px;
+    }
+
+    #flex1 {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    } 
+
+    #sec6 aside img {
+        max-width: 45%;
+    }
+
+    #sec7 {
+        padding: 20px 50px;
+    }
+
+    #flex2 {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #flex2 #a2 a {
+        display: block;
+        margin-top: 10px 30px;
+    }
+
+    #sec8 aside article {
+        max-width: 90%
+    }
+    
+    #sec8 aside article .card {
+        max-width: 50%
+    }
+
+    #flex4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    #sec9 form{
+        max-width: 70%;
+
+    }
+
+    #sec9 .select{
+        max-width: 100%;
+
+    }
+
+    #flex6 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    
+    
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    #sec2 {
+        background-position: center -180px;
+        padding: 100px;
+    }
+
+    #flex {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    } 
+ 
+    #sec5 article {
+        max-width: 250px;
+    }
+    
+    
+    #flex1 {
+        justify-content: center;
+    }
+    
+    #sec6 aside img {
+        max-width: 30%;
+    }
+
+    #flex2 {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #sec8 aside article {
+        max-width: 48%
+    }
+    
+    #sec8 aside article .card {
+        max-width: 47%
+    }
+
+    #flex4 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #flex3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #sec8 aside img {
+        max-width: 48%;
+    }
+
+    #flex5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #a91 {
+        max-width: 48%;
+    }
+
+    #a92 {
+        max-width: 48%;
+    }
+
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
+
+    #sec2 {
+        padding: 150px;
+
+    }
+
+    #sec4 {
+        padding: 30px 60px;
+    }
+    
+    #sec5 article {
+        max-width: 350px;
+    } 
+
+    #flex1 {
+        justify-content: space-between;
+    }
+    
+    #sec6 aside img {
+        max-width: 22%;
+    }
+}
